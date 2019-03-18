@@ -1,0 +1,42 @@
+.inbox-root {
+  background-color: #202020;
+  width: 200px;
+  color: #fff;
+  .header {
+    height: 100px;
+    border-bottom: 1px solid #999999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    font-size: 18px;
+    font-weight: bold;
+    img {
+      width: 20px;
+      height: auto;
+    }
+  }
+  .sections-container {
+    padding: 0 10px;
+    .section {
+      padding: 30px 15px 10px;
+      border-bottom: 1px solid #999;
+      &:last-child {
+        border-bottom: none;
+      }
+      .tab {
+        margin-bottom: 10px;
+        display: flex;
+        justify-content: space-between;
+        font-size: 14px;
+        .label {
+          color: #999;
+        }
+        .count {
+          font-weight: bold;
+          font-size: 12px;
+        }
+      }
+    }
+  }
+}
